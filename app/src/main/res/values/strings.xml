@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Help Me</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_home">Home page</string>
+    <string name="action_english">English</string>
+    <string name="action_arabic">Arabic</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_profile">Personal Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_personal">Personal</string>
+    <string name="title_relatives">Relatives</string>
+    <string name="title_notes">Notes</string>
+    <string name="title_activity_history">Medical history</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ha Ha Ha  \nPut Your Design Here</string>
+
+</resources>

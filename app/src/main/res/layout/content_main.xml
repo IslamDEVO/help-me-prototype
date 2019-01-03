@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.root.helpme.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_header"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/a2pp_black_scal"
+            android:scaleType="fitXY"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/qr_fing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/home_btn_id"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:id="@+id/home_btn_qr"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/qr3"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/home_btn_fingerprinting"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/fingerprint"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/home_btn_id"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/home_page_end"
+            android:src="@drawable/id3"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/home_page_end"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/background5"
+            android:scaleType="fitXY"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

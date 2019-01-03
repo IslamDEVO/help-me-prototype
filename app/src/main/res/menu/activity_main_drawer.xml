@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personal_information"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="Personal information" />
+        <item
+            android:id="@+id/nav_who_are_we"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Who are we" />
+        <item
+            android:id="@+id/nav_medical_history"
+            android:icon="@drawable/ic_content_paste_black_24dp"
+            android:title="Medical history" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>-->
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_mail_outline_black_24dp"
+                android:title="Contact us" />
+            <item
+                android:id="@+id/nav_rate_app"
+                android:icon="@drawable/ic_local_play_black_24dp"
+                android:title="Rate App" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_menu_close_clear_cancel"
+                android:title="Exit"/>
+        <!--</menu>
+    </item>-->
+
+
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.root.helpme.History"
+    tools:showIn="@layout/activity_history">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar_red"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="First aid for this patient"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="Medical history"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="Blood grouping"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="Radiographs &amp; Medical tests"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="FMedication &amp; Prescriptions"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="Doctors, Hospitals &amp; Clinics"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_side_nav_bar"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="15dp"
+            android:text="Blood donation compatibility"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            style="@style/Base.AlertDialog.AppCompat.Light"
+            />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
